@@ -1,0 +1,60 @@
+.ad-card {
+
+    // Outline-Color
+    &.outline {
+        position: relative;
+
+        &:before {
+            position: absolute;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: inherit;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            content: '';
+        }
+
+        &.outline-prim {
+            &:before {
+                border-color: rgba($prim, 0.3);
+            }
+        }
+
+        &.outline-pink {
+            &:before {
+                border-color: rgba($pink, 0.3);
+            }
+        }
+
+        &.outline-yellow {
+            &:before {
+                border-color: rgba($yellow, 0.3);
+            }
+        }
+
+        &.outline-tgreen {
+            &:before {
+                border-color: rgba($tGreen, 0.3);
+            }
+        }
+
+        &.outline-blue {
+            &:before {
+                border-color: rgba($blue, 0.3);
+            }
+        }
+
+        &.outline-red {
+            &:before {
+                border-color: rgba($red, 0.3);
+            }
+        }
+
+        &.outline-white {
+            &:before {
+                border-color: rgba(white, 0.3);
+            }
+        }
+    }
+}

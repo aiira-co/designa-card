@@ -1,0 +1,102 @@
+/*
+   ** DesignaCard
+   ** Author: Kofi Owusu-Afriyie
+   **Version: 2.5.0
+
+*/
+/* BASE-- base, variables, mixins, normalize */
+/* COLORS PRESETS  */
+/* COLORS Buttons*/
+.ad-card {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 8px;
+  margin-bottom: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+  -mz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1); }
+  .ad-card.ad-full {
+    margin: 8px 0; }
+  .ad-card.ad-round {
+    border-radius: 10px; }
+  .ad-card.ad-block {
+    border-radius: 0; }
+  .ad-card.ad-flat {
+    box-shadow: none;
+    text-shadow: none;
+    border: none; }
+  .ad-card.ad-img {
+    font-size: 0; }
+    .ad-card.ad-img img {
+      margin: 0;
+      padding: 0;
+      font-size: 0; }
+  .ad-card.ad-shadow {
+    box-shadow: none;
+    -webkit-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
+    -mz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1); }
+  .ad-card p {
+    padding: 16px; }
+  .ad-card .title {
+    margin: 16px 16px;
+    margin-bottom: 0;
+    font-weight: 100; }
+    .ad-card .title + p {
+      padding-top: 0; }
+  .ad-card > .ad-btn {
+    margin-left: 16px; }
+  .ad-card .ad-input {
+    margin: 16px; }
+
+.ad-card.outline {
+  position: relative; }
+  .ad-card.outline:before {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: ''; }
+  .ad-card.outline.outline-prim:before {
+    border-color: rgba(40, 208, 234, 0.3); }
+  .ad-card.outline.outline-pink:before {
+    border-color: rgba(255, 0, 102, 0.3); }
+  .ad-card.outline.outline-yellow:before {
+    border-color: rgba(255, 246, 0, 0.3); }
+  .ad-card.outline.outline-tgreen:before {
+    border-color: rgba(25, 227, 177, 0.3); }
+  .ad-card.outline.outline-blue:before {
+    border-color: rgba(33, 150, 243, 0.3); }
+  .ad-card.outline.outline-red:before {
+    border-color: rgba(244, 67, 54, 0.3); }
+  .ad-card.outline.outline-white:before {
+    border-color: rgba(255, 255, 255, 0.3); }
+
+.ad-tile {
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  margin: 0; }
+
+.flower img {
+  border-radius: 50% 0 50% 50% !important; }
+
+.ad-flower {
+  border-radius: 50% 0 50% 50% !important;
+  overflow: hidden;
+  width: 230px;
+  height: 230px; }
+
+/*# sourceMappingURL=designa-card.css.map */

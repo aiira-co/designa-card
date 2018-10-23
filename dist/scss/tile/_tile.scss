@@ -1,0 +1,20 @@
+.ad-tile {
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+//FLOWERS
+.flower {
+    img {
+        border-radius: 50% 0 50% 50% !important;
+    }
+}
+
+.ad-flower {
+    border-radius: 50% 0 50% 50% !important;
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+}

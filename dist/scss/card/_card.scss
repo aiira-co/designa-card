@@ -1,0 +1,70 @@
+.ad-card {
+    display: block; // background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 8px;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    @include shadow(0, 1px, 3px, 1px, rgba(0, 0, 0, 0.1));
+
+    &.ad-full {
+        margin: 8px 0;
+    }
+
+    //Card Type
+    &.ad-round {
+        border-radius: 10px;
+    }
+
+    &.ad-block {
+        border-radius: 0;
+    }
+
+    &.ad-flat {
+        box-shadow: none;
+        text-shadow: none;
+        border: none;
+    }
+
+    &.ad-img {
+        font-size: 0;
+
+        img {
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+        }
+    }
+
+    &.ad-shadow {
+        //   @extend .ad-shadow;
+        box-shadow: none;
+        @include shadow(0px, 5px, 16px, 3px, rgba(black, 0.1));
+    }
+
+    // Card Contents
+    p {
+        padding: 16px;
+    }
+
+    .title {
+        margin: 16px 16px;
+        margin-bottom: 0;
+        font-weight: 100;
+
+        &+p {
+            padding-top: 0;
+        }
+    }
+
+    &>.ad-btn {
+        margin-left: 16px;
+    }
+
+    .ad-input {
+        margin: 16px;
+    }
+}
