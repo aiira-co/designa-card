@@ -1,0 +1,20 @@
+.ad-card {
+    &.ad-full {
+        margin: 8px 0;
+    }
+
+    //Card Type
+    &.ad-round {
+        border-radius: 10px;
+    }
+
+    &.ad-block {
+        border-radius: 0;
+    }
+
+    &.ad-flat {
+        box-shadow: none;
+        text-shadow: none;
+        border: none;
+    }
+}

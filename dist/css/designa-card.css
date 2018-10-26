@@ -22,16 +22,8 @@
   -o-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
   -mz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1); }
-  .ad-card.ad-full {
-    margin: 8px 0; }
-  .ad-card.ad-round {
-    border-radius: 10px; }
-  .ad-card.ad-block {
-    border-radius: 0; }
-  .ad-card.ad-flat {
-    box-shadow: none;
-    text-shadow: none;
-    border: none; }
+  .ad-card .ad-header {
+    box-shadow: none; }
   .ad-card.ad-img {
     font-size: 0; }
     .ad-card.ad-img img {
@@ -57,6 +49,17 @@
     margin-left: 16px; }
   .ad-card .ad-input {
     margin: 16px; }
+
+.ad-card.ad-full {
+  margin: 8px 0; }
+.ad-card.ad-round {
+  border-radius: 10px; }
+.ad-card.ad-block {
+  border-radius: 0; }
+.ad-card.ad-flat {
+  box-shadow: none;
+  text-shadow: none;
+  border: none; }
 
 .ad-card.outline {
   position: relative; }

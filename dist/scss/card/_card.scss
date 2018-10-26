@@ -10,23 +10,8 @@
     position: relative;
     @include shadow(0, 1px, 3px, 1px, rgba(0, 0, 0, 0.1));
 
-    &.ad-full {
-        margin: 8px 0;
-    }
-
-    //Card Type
-    &.ad-round {
-        border-radius: 10px;
-    }
-
-    &.ad-block {
-        border-radius: 0;
-    }
-
-    &.ad-flat {
+    .ad-header {
         box-shadow: none;
-        text-shadow: none;
-        border: none;
     }
 
     &.ad-img {
