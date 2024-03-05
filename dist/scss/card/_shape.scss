@@ -1,22 +1,22 @@
-.ad-card {
-    &.ad-full {
+.#{$classPrefix}-card {
+    &.#{$classPrefix}-full {
         margin: 8px 0;
     }
 
     //Card Type
-    &.ad-round {
+    &.#{$classPrefix}-round {
         border-radius: 10px;
     }
 
-    &.ad-ellipse {
+    &.#{$classPrefix}-ellipse {
         border-radius: 24px;
     }
 
-    &.ad-block {
+    &.#{$classPrefix}-block {
         border-radius: 0;
     }
 
-    &.ad-flat {
+    &.#{$classPrefix}-flat {
         box-shadow: none;
         text-shadow: none;
         border: none;

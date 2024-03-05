@@ -1,4 +1,4 @@
-.ad-card {
+.#{$classPrefix}-card {
     display: block; // background-color: transparent;
     background-position: center;
     background-size: cover;
@@ -10,11 +10,11 @@
     position: relative;
     @include shadow(0, 1px, 3px, 1px, rgba(0, 0, 0, 0.1));
 
-    .ad-header {
+    .#{$classPrefix}-header {
         box-shadow: none;
     }
 
-    &.ad-img {
+    &.#{$classPrefix}-img {
         font-size: 0;
 
         img {
@@ -24,8 +24,8 @@
         }
     }
 
-    &.ad-shadow {
-        //   @extend .ad-shadow;
+    &.#{$classPrefix}-shadow {
+        //   @extend .#{$classPrefix}-shadow;
         box-shadow: none;
         @include shadow(0px, 5px, 16px, 3px, rgba(black, 0.1));
     }
@@ -45,11 +45,11 @@
         }
     }
 
-    &>.ad-btn {
+    &>.#{$classPrefix}-btn {
         margin-left: 16px;
     }
 
-    .ad-input {
+    .#{$classPrefix}-input {
         margin: 16px;
     }
 }

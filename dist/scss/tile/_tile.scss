@@ -1,4 +1,4 @@
-.ad-tile {
+.#{$classPrefix}-tile {
     background-color: transparent;
     background-position: center;
     background-size: cover;
@@ -12,7 +12,7 @@
     }
 }
 
-.ad-flower {
+.#{$classPrefix}-flower {
     border-radius: 50% 0 50% 50% !important;
     overflow: hidden;
     width: 230px;

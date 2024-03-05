@@ -6,15 +6,19 @@
 */
 /* BASE-- base, variables, mixins, normalize */
 :root {
-  --pure-designa-primary-rgb: 33, 150, 243;
-  --pure-designa-onprimary-rgb: 255, 255, 255;
-  --pure-designa-surface-rgb: 255, 255, 255;
-  --pure-designa-onsurface-rgb: 0, 0, 0;
+  --designa-primary-rgb: #29d0e9;
+  --designa-secondary-rgb:#ff0066;
+  --designa-font-size: .875rem;
+  --designa-font-color: #575758;
+  --designa-letter-spacing: 0.03em;
+  --designa-letter-spacing: 0.03em;
+  --designa-surface-rgb: 255, 255, 255;
+  --designa-onsurface-rgb: 0, 0, 0;
 }
 
 /* COLORS PRESETS  */
 /* COLORS Buttons*/
-.ad-card {
+.adx-card {
   display: block;
   background-position: center;
   background-size: cover;
@@ -30,18 +34,18 @@
   -mz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
 }
-.ad-card .ad-header {
+.adx-card .adx-header {
   box-shadow: none;
 }
-.ad-card.ad-img {
+.adx-card.adx-img {
   font-size: 0;
 }
-.ad-card.ad-img img {
+.adx-card.adx-img img {
   margin: 0;
   padding: 0;
   font-size: 0;
 }
-.ad-card.ad-shadow {
+.adx-card.adx-shadow {
   box-shadow: none;
   -webkit-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
@@ -49,46 +53,46 @@
   -mz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
 }
-.ad-card p {
+.adx-card p {
   padding: 16px;
 }
-.ad-card .title {
+.adx-card .title {
   margin: 16px 16px;
   margin-bottom: 0;
   font-weight: 100;
 }
-.ad-card .title + p {
+.adx-card .title + p {
   padding-top: 0;
 }
-.ad-card > .ad-btn {
+.adx-card > .adx-btn {
   margin-left: 16px;
 }
-.ad-card .ad-input {
+.adx-card .adx-input {
   margin: 16px;
 }
 
-.ad-card.ad-full {
+.adx-card.adx-full {
   margin: 8px 0;
 }
-.ad-card.ad-round {
+.adx-card.adx-round {
   border-radius: 10px;
 }
-.ad-card.ad-ellipse {
+.adx-card.adx-ellipse {
   border-radius: 24px;
 }
-.ad-card.ad-block {
+.adx-card.adx-block {
   border-radius: 0;
 }
-.ad-card.ad-flat {
+.adx-card.adx-flat {
   box-shadow: none;
   text-shadow: none;
   border: none;
 }
 
-.ad-card.outline {
+.adx-card.outline {
   position: relative;
 }
-.ad-card.outline:before {
+.adx-card.outline:before {
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: inherit;
@@ -98,29 +102,29 @@
   bottom: 0;
   content: "";
 }
-.ad-card.outline.outline-prim:before {
+.adx-card.outline.outline-prim:before {
   border-color: rgba(41, 208, 233, 0.3);
 }
-.ad-card.outline.outline-pink:before {
+.adx-card.outline.outline-pink:before {
   border-color: rgba(255, 0, 102, 0.3);
 }
-.ad-card.outline.outline-yellow:before {
+.adx-card.outline.outline-yellow:before {
   border-color: rgba(255, 246, 0, 0.3);
 }
-.ad-card.outline.outline-tgreen:before {
+.adx-card.outline.outline-tgreen:before {
   border-color: rgba(25, 227, 177, 0.3);
 }
-.ad-card.outline.outline-blue:before {
+.adx-card.outline.outline-blue:before {
   border-color: rgba(33, 150, 243, 0.3);
 }
-.ad-card.outline.outline-red:before {
+.adx-card.outline.outline-red:before {
   border-color: rgba(244, 67, 54, 0.3);
 }
-.ad-card.outline.outline-white:before {
+.adx-card.outline.outline-white:before {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-.ad-tile {
+.adx-tile {
   background-color: transparent;
   background-position: center;
   background-size: cover;
@@ -131,7 +135,7 @@
   border-radius: 50% 0 50% 50% !important;
 }
 
-.ad-flower {
+.adx-flower {
   border-radius: 50% 0 50% 50% !important;
   overflow: hidden;
   width: 230px;
