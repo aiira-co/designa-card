@@ -1,6 +1,6 @@
 .#{$classPrefix}-card {
     &.#{$classPrefix}-full {
-        margin: 8px 0;
+        margin: 0.8rem 0;
     }
 
     //Card Type
@@ -9,7 +9,7 @@
     }
 
     &.#{$classPrefix}-ellipse {
-        border-radius: 24px;
+        border-radius: 2.4rem;
     }
 
     &.#{$classPrefix}-block {

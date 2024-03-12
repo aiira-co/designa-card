@@ -8,7 +8,7 @@
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: .875rem;
+  --designa-font-size: 1.3rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -22,17 +22,17 @@
   display: block;
   background-position: center;
   background-size: cover;
-  border-radius: 5px;
-  margin: 8px;
+  border-radius: 0.5rem;
+  margin: 0.8rem;
   margin-bottom: 0;
   padding: 0;
   overflow: hidden;
   position: relative;
-  -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
-  -mz-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0.3rem 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0.3rem 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 0.3rem 1px rgba(0, 0, 0, 0.1);
+  -mz-box-shadow: 0 1px 0.3rem 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0.3rem 1px rgba(0, 0, 0, 0.1);
 }
 .adx-card .adx-header {
   box-shadow: none;
@@ -47,17 +47,17 @@
 }
 .adx-card.adx-shadow {
   box-shadow: none;
-  -webkit-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  -mz-box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 5px 16px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  -mz-box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0.5rem 1.6rem 0.3rem rgba(0, 0, 0, 0.1);
 }
 .adx-card p {
-  padding: 16px;
+  padding: 1.6rem;
 }
 .adx-card .title {
-  margin: 16px 16px;
+  margin: 1.6rem 1.6rem;
   margin-bottom: 0;
   font-weight: 100;
 }
@@ -65,20 +65,23 @@
   padding-top: 0;
 }
 .adx-card > .adx-btn {
-  margin-left: 16px;
+  margin-left: 1.6rem;
 }
-.adx-card .adx-input {
-  margin: 16px;
+.adx-card .adx-input, .adx-card .adx-input-group {
+  margin: 1.6rem;
+}
+.adx-card .adx-input.adx-label, .adx-card .adx-input-group.adx-label {
+  margin: 0.8rem 1.6rem;
 }
 
 .adx-card.adx-full {
-  margin: 8px 0;
+  margin: 0.8rem 0;
 }
 .adx-card.adx-round {
   border-radius: 10px;
 }
 .adx-card.adx-ellipse {
-  border-radius: 24px;
+  border-radius: 2.4rem;
 }
 .adx-card.adx-block {
   border-radius: 0;
@@ -138,8 +141,8 @@
 .adx-flower {
   border-radius: 50% 0 50% 50% !important;
   overflow: hidden;
-  width: 230px;
-  height: 230px;
+  width: 23rem;
+  height: 23rem;
 }
 
 /*# sourceMappingURL=designa-card.css.map */
